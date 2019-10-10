@@ -1,11 +1,14 @@
 {
   "name": "digital-punch-sys",
   "version": "0.1.0",
+  "proxy": "http://localhost:80",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "typescript": "^3.6.3"
   },
   "scripts": {
     "start": "react-scripts start",
